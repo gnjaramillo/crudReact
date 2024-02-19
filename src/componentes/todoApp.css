@@ -5,6 +5,7 @@
     flex-direction: column;
     font-style: oblique;
     font-size: 35px;
+    justify-content: center;
 
 }
 
@@ -58,8 +59,10 @@ input:focus {
     font-size: 15px;
     width: 100px;
     color: #76453B;
+}
 
-
+.buttonEdit, .buttonCreate{
+    margin-right: 10px;
 }
 
 .buttonCreate:hover,  .buttonEdit:hover, .buttonDelete:hover, .buttonUpdate:hover, .buttonNew:hover {
@@ -74,9 +77,6 @@ input:focus {
 
 }
 
-
-
-
 .todosContainer{
     display: flex;
     flex-direction: column;
@@ -87,7 +87,7 @@ input:focus {
     border-radius: 10px;
     margin-top: 10px;
     width: auto;
-
+    justify-content: center;
 }
 
 .todoCreateForm{
@@ -113,6 +113,7 @@ input:focus {
 .todoContent{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 } 
 
                 
