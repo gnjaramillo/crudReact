@@ -1,0 +1,138 @@
+.todoContainer{
+    width: auto;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    font-style: oblique;
+    font-size: 35px;
+
+}
+
+.tituloTodoContainer{
+    font-style: oblique;
+    font-size: 35px;
+    text-align: center;
+}
+
+.todoCreateForm {
+    display: flex;
+    gap: 5px;
+    height: auto;
+    border: solid 1px rgb(213, 205, 255);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.todoInput{
+    padding: 10px;
+    border: solid 1px  #B67352;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+
+input:focus {
+    border-color: #B67352; /* Cambia el color del borde cuando el input está enfocado */
+    box-shadow: 2px 2px 5px 0 #B67352; /* Agrega una sombra más pronunciada cuando el input está enfocado */
+    outline: none; 
+}
+
+
+.buttonCreate, .buttonCancel, .buttonEdit, .buttonDelete, .buttonUpdate{
+    padding: 5px;
+    border-radius: 10px;
+    border: solid #76453B  1px;
+    background-color: #B99470;
+    font-size: 15px;
+    width: 100px;
+    color: #76453B;
+    outline: none; 
+
+}
+.buttonNew{
+    padding: 5px;
+    border-radius: 10px;
+    border: solid #76453B  1px;
+    background-color: #B99470;
+    font-size: 15px;
+    width: 100px;
+    color: #76453B;
+
+
+}
+
+.buttonCreate:hover,  .buttonEdit:hover, .buttonDelete:hover, .buttonUpdate:hover, .buttonNew:hover {
+    background-color: #FEFAE0;
+    border: solid #76453B  1px;
+
+}
+
+.buttonDelete:hover, .buttonCancel:hover {
+    background-color: #f1a1a1;
+    border: solid #76453B  1px;
+
+}
+
+
+
+
+.todosContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: auto;
+    border: solid 1px rgb(213, 205, 255);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: auto;
+
+}
+
+.todoCreateForm{
+    justify-content: center;
+}
+
+
+.todo{
+    padding: 10px;
+    background-color: #F9EFDB;
+    border-radius: 10px;
+}
+
+
+
+.todoUpdateForm {
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    
+}
+
+.todoContent{
+    display: flex;
+    flex-direction: column;
+} 
+
+                
+.todoInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 20px;
+    gap: 20px;
+    font-size: 5px;
+    justify-content: space-between;
+
+}
+
+/* .todoTitle{
+    display: flex;   
+    font-size: 5px;
+    flex-direction: row;
+} */
+
+.todoTitle, .todoDesc{
+    font-size: 20px;
+}
